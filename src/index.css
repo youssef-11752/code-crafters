@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    font-family: 'Inter', system-ui, sans-serif;
+    background-color: #F8F7F5;
+    color: #1F2937;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-secondary text-white px-6 py-3 rounded-lg font-semibold text-sm tracking-wide transition-all duration-200 hover:bg-secondary-dark hover:shadow-lg active:scale-95 inline-flex items-center gap-2;
+  }
+
+  .btn-outline {
+    @apply border-2 border-primary text-primary px-6 py-3 rounded-lg font-semibold text-sm tracking-wide transition-all duration-200 hover:bg-primary hover:text-white active:scale-95 inline-flex items-center gap-2;
+  }
+
+  .btn-outline-white {
+    @apply border-2 border-white text-white px-6 py-3 rounded-lg font-semibold text-sm tracking-wide transition-all duration-200 hover:bg-white hover:text-primary active:scale-95 inline-flex items-center gap-2;
+  }
+
+  .section-tag {
+    @apply inline-flex items-center gap-2 bg-secondary/10 text-secondary text-xs font-semibold uppercase tracking-widest px-3 py-1 rounded-full;
+  }
+
+  .section-heading {
+    @apply text-3xl md:text-4xl lg:text-5xl font-bold text-primary leading-tight;
+  }
+
+  .card {
+    @apply bg-white rounded-2xl shadow-card hover:shadow-card-hover transition-all duration-300;
+  }
+
+  .input-field {
+    @apply w-full border border-gray-200 rounded-lg px-4 py-3 text-sm text-text-dark placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-primary/20 focus:border-primary transition-all duration-200 bg-white;
+  }
+
+  .label {
+    @apply block text-sm font-medium text-text-dark mb-1.5;
+  }
+
+  .nav-link {
+    @apply text-sm font-medium text-text-dark hover:text-primary transition-colors duration-200 relative;
+  }
+
+  .sidebar-link {
+    @apply flex items-center gap-3 px-4 py-2.5 rounded-lg text-sm font-medium transition-all duration-200 cursor-pointer;
+  }
+}
+
+@layer utilities {
+  .text-gradient {
+    background: linear-gradient(135deg, #0A2A5E 0%, #D7263D 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .bg-primary-gradient {
+    background: linear-gradient(135deg, #0A2A5E 0%, #0D3575 100%);
+  }
+
+  .scrollbar-thin {
+    scrollbar-width: thin;
+    scrollbar-color: #0A2A5E #F8F7F5;
+  }
+}
