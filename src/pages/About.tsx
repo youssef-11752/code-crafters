@@ -9,28 +9,6 @@ import { staggerContainer, fadeUp, slideInLeft, slideInRight } from '../utils/an
 import CTASection from '../components/home/CTASection';
 import SectionHeader from '../components/common/SectionHeader';
 
-const team = [
-  {
-    name: 'Alex Rivera',
-    role: 'Founder & Lead Architect',
-    avatar: 'https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?w=200',
-  },
-  {
-    name: 'Sophia Lee',
-    role: 'Head of Design',
-    avatar: 'https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?w=200',
-  },
-  {
-    name: 'Marcus Chen',
-    role: 'Senior Backend Engineer',
-    avatar: 'https://images.pexels.com/photos/1681010/pexels-photo-1681010.jpeg?w=200',
-  },
-  {
-    name: 'Priya Sharma',
-    role: 'AI/ML Specialist',
-    avatar: 'https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?w=200',
-  },
-];
 
 const timeline = [
   { year: '2019', title: 'Founded', desc: 'Started as a two-person team focused on web excellence.' },
