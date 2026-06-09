@@ -236,7 +236,6 @@ export default function About() {
       <MissionVision />
       <WhyChooseUs />
       <Timeline />
-      
       <CTASection />
     </>
   );
