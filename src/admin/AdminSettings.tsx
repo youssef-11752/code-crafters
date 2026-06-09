@@ -14,7 +14,7 @@ export default function AdminSettings() {
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
           {[
             { label: 'Company Name', placeholder: 'Code Crafters' },
-            { label: 'Support Email', placeholder: 'hello@codecrafters.io' },
+            { label: 'Support Email', placeholder: 'code.crafters.schools.team@gmail.com' },
             { label: 'Phone', placeholder: '+20 01275884187 - 01119055745' },
             { label: 'Website', placeholder: 'https://codecrafters.io' },
           ].map((field) => (

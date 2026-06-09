@@ -101,7 +101,7 @@ export default function Contact() {
                       <label className="label">Full Name <span className="text-secondary">*</span></label>
                       <input
                         type="text"
-                        placeholder="John Doe"
+                        placeholder="write your name"
                         value={form.fullName}
                         onChange={(e) => update('fullName', e.target.value)}
                         className={`input-field ${errors.fullName ? 'border-secondary ring-1 ring-secondary/20' : ''}`}
@@ -112,7 +112,7 @@ export default function Contact() {
                       <label className="label">Email Address <span className="text-secondary">*</span></label>
                       <input
                         type="email"
-                        placeholder="john@company.com"
+                        placeholder="write your email"
                         value={form.email}
                         onChange={(e) => update('email', e.target.value)}
                         className={`input-field ${errors.email ? 'border-secondary ring-1 ring-secondary/20' : ''}`}
@@ -123,7 +123,7 @@ export default function Contact() {
                       <label className="label">Phone Number</label>
                       <input
                         type="tel"
-                        placeholder="+1 (555) 000-0000"
+                        placeholder="write the phone number"
                         value={form.phone}
                         onChange={(e) => update('phone', e.target.value)}
                         className="input-field"
@@ -205,8 +205,8 @@ export default function Contact() {
                     <RiMapPinLine size={18} className="text-text-muted mt-0.5 flex-shrink-0" />
                     <div>
                       <p className="text-xs font-semibold text-text-muted uppercase tracking-widest mb-1">Headquarters</p>
-                      <p className="text-sm text-text-dark">128 Innovation Blvd, Suite 400</p>
-                      <p className="text-sm text-text-dark">Silicon Valley, CA 94025</p>
+                      <p className="text-sm text-text-dark">Street 90, First Settlement</p>
+                      <p className="text-sm text-text-dark">Suite 12,New Cairo city,Cairo Governorate</p>
                     </div>
                   </div>
                 </div>
@@ -214,11 +214,11 @@ export default function Contact() {
 
               <div className="bg-primary rounded-2xl p-6">
                 <h4 className="font-bold text-white text-base mb-4">Direct Connect</h4>
-                <a href="mailto:hello@codecrafters.io" className="flex items-center gap-3 text-white/80 hover:text-white transition-colors text-sm">
+                <a href="mailto:code.crafters.schools.team@gmail.com" className="flex items-center gap-3 text-white/80 hover:text-white transition-colors text-sm">
                   <div className="w-9 h-9 bg-white/10 rounded-lg flex items-center justify-center flex-shrink-0">
                     <RiMailLine size={16} />
                   </div>
-                  hello@codecrafters.io
+                  code.crafters.schools.team@gmail.com
                 </a>
               </div>
             </motion.div>

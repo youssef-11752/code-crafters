@@ -73,14 +73,14 @@ export default function Footer() {
         {/* Contact info */}
         <div className="mt-12 pt-8 border-t border-white/10 flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
           <div className="flex flex-wrap gap-6 text-sm text-white/60">
-            <a href="mailto:hello@codecrafters.io" className="flex items-center gap-2 hover:text-white transition-colors">
-              <RiMailLine size={14} /> hello@codecrafters.io
+            <a href="code.crafters.schools.team@gmail.com" className="flex items-center gap-2 hover:text-white transition-colors">
+              <RiMailLine size={14} /> code.crafters.schools.team@gmail.com
             </a>
             <span className="flex items-center gap-2">
-              <RiPhoneLine size={14} /> +20 01275884187 - 01119055745
+              <RiPhoneLine size={14} /> +20 01275884187 -  01119055745
             </span>
             <span className="flex items-center gap-2">
-              <RiMapPinLine size={14} /> Silicon Valley, CA
+              <RiMapPinLine size={14} />Street 90, First Settlement,Suite 12,New Cairo city, Cairo Governorate 
             </span>
           </div>
           <p className="text-white/40 text-sm">
