@@ -15,7 +15,7 @@ export default function AdminSettings() {
           {[
             { label: 'Company Name', placeholder: 'Code Crafters' },
             { label: 'Support Email', placeholder: 'hello@codecrafters.io' },
-            { label: 'Phone', placeholder: '+1 (555) 000-0000' },
+            { label: 'Phone', placeholder: '+20 01275884187 - 01119055745' },
             { label: 'Website', placeholder: 'https://codecrafters.io' },
           ].map((field) => (
             <div key={field.label}>

@@ -77,7 +77,7 @@ export default function Footer() {
               <RiMailLine size={14} /> hello@codecrafters.io
             </a>
             <span className="flex items-center gap-2">
-              <RiPhoneLine size={14} /> +1 (555) 000-0000
+              <RiPhoneLine size={14} /> +20 01275884187 - 01119055745
             </span>
             <span className="flex items-center gap-2">
               <RiMapPinLine size={14} /> Silicon Valley, CA

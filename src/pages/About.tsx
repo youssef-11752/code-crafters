@@ -9,6 +9,9 @@ import { staggerContainer, fadeUp, slideInLeft, slideInRight } from '../utils/an
 import CTASection from '../components/home/CTASection';
 import SectionHeader from '../components/common/SectionHeader';
 
+const team = [
+  
+];
 
 const timeline = [
   { year: '2019', title: 'Founded', desc: 'Started as a two-person team focused on web excellence.' },
@@ -223,36 +226,7 @@ function Timeline() {
   );
 }
 
-function TeamSection() {
-  const ref = useRef(null);
-  const isInView = useInView(ref, { once: true, margin: '-80px' });
-  return (
-    <section className="py-24 bg-white">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6">
-        <SectionHeader tag="The Team" title="The Architects Behind the Excellence" subtitle="Elite engineers and designers united by a passion for precision." />
-        <motion.div
-          ref={ref}
-          variants={staggerContainer}
-          initial="hidden"
-          animate={isInView ? 'visible' : 'hidden'}
-          className="grid grid-cols-2 md:grid-cols-4 gap-6"
-        >
-          {team.map((member) => (
-            <motion.div key={member.name} variants={fadeUp} whileHover={{ y: -4 }} className="card p-5 text-center">
-              <img
-                src={member.avatar}
-                alt={member.name}
-                className="w-20 h-20 rounded-2xl object-cover mx-auto mb-4"
-              />
-              <h4 className="font-bold text-sm text-primary">{member.name}</h4>
-              <p className="text-xs text-text-muted mt-1">{member.role}</p>
-            </motion.div>
-          ))}
-        </motion.div>
-      </div>
-    </section>
-  );
-}
+
 
 export default function About() {
   return (
@@ -262,7 +236,7 @@ export default function About() {
       <MissionVision />
       <WhyChooseUs />
       <Timeline />
-      <TeamSection />
+      
       <CTASection />
     </>
   );
