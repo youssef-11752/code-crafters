@@ -39,6 +39,8 @@ const timeline = [
   { year: '2022', title: '50+ Projects', desc: 'Crossed 50 delivered projects with 99% client retention.' },
   { year: '2023', title: 'International Reach', desc: 'Expanded to serve clients across 12 countries.' },
   { year: '2024', title: '1000+ Deliveries', desc: 'Celebrating over 1000 feature deliveries in production.' },
+  { year: '2025', title: '###', desc: '###' },  /// A suitable title and description should be provided.
+  { year: '2026', title: '###', desc: '###' },  /// A suitable title and description should be provided.
 ];
 
 const values = [
