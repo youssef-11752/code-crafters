@@ -1,6 +1,7 @@
 import { useRef } from 'react';
 import { motion, useInView } from 'framer-motion';
 import { Link } from 'react-router-dom';
+import ourStoryImage from"../assests/our story.png"
 import {
   RiRocketLine, RiEyeLine, RiFlashlightLine, RiUserLine,
   RiShieldCheckLine, RiComputerLine,
@@ -102,7 +103,7 @@ function OurStory() {
             className="rounded-2xl overflow-hidden shadow-card aspect-[4/3]"
           >
             <img
-              src="https://images.pexels.com/photos/1170979/pexels-photo-1170979.jpeg?auto=compress&cs=tinysrgb&w=1000"
+              src={ourStoryImage}
               alt="Office interior"
               className="w-full h-full object-cover"
             />
@@ -141,7 +142,8 @@ function MissionVision() {
             const Icon = item.icon;
             return (
               <motion.div key={item.title} variants={fadeUp} className="card p-8">
-                <div className="w-12 h-12 bg-gray-50 rounded-xl flex items-center justify-center mb-5">
+                <div className="w-12 h-12 bg-gray-50 rounded-xl flex items-center justify-center mb-5">JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.ts(7026)
+                
                   <Icon size={24} className="text-primary" />
                 </div>
                 <h3 className="text-xl font-bold text-primary mb-3">{item.title}</h3>
