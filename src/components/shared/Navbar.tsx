@@ -72,9 +72,7 @@ export default function Navbar() {
               </Link>
             ) : (
               <>
-                <Link to="/login" className="text-sm font-medium text-text-dark hover:text-primary transition-colors">
-                  Sign In
-                </Link>
+                
                 <Link to="/contact" className="btn-primary text-xs px-4 py-2">
                   Get Started
                 </Link>
