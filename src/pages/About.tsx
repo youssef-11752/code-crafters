@@ -142,8 +142,7 @@ function MissionVision() {
             const Icon = item.icon;
             return (
               <motion.div key={item.title} variants={fadeUp} className="card p-8">
-                <div className="w-12 h-12 bg-gray-50 rounded-xl flex items-center justify-center mb-5">JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.ts(7026)
-                
+                <div className="w-12 h-12 bg-gray-50 rounded-xl flex items-center justify-center mb-5">
                   <Icon size={24} className="text-primary" />
                 </div>
                 <h3 className="text-xl font-bold text-primary mb-3">{item.title}</h3>
