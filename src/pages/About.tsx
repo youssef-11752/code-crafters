@@ -1,7 +1,7 @@
 import { useRef } from 'react';
 import { motion, useInView } from 'framer-motion';
 import { Link } from 'react-router-dom';
-import ourStoryImage from"../assests/our story.png"
+import ourStoryImage from "../assests/our story.png"
 import {
   RiRocketLine, RiEyeLine, RiFlashlightLine, RiUserLine,
   RiShieldCheckLine, RiComputerLine,
@@ -11,7 +11,7 @@ import CTASection from '../components/home/CTASection';
 import SectionHeader from '../components/common/SectionHeader';
 
 const team = [
-  
+
 ];
 
 const timeline = [
@@ -21,8 +21,11 @@ const timeline = [
   { year: '2022', title: '50+ Projects', desc: 'Crossed 50 delivered projects with 99% client retention.' },
   { year: '2023', title: 'International Reach', desc: 'Expanded to serve clients across 12 countries.' },
   { year: '2024', title: '1000+ Deliveries', desc: 'Celebrating over 1000 feature deliveries in production.' },
-  { year: '2025', title: '###', desc: '###' },  /// A suitable title and description should be provided.
-  { year: '2026', title: '###', desc: '###' },  /// A suitable title and description should be provided.
+{
+  year: '2025',
+  title: 'Technology Advancement',
+  desc: 'Enhanced our development capabilities by adopting modern technologies and innovative engineering practices.'
+},  { year: '2026',title: 'Next-Level Impact',desc: 'Reached new milestones by delivering transformative solutions that drive measurable business growth.'},
 ];
 
 const values = [
